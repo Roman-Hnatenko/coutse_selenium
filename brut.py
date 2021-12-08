@@ -11,7 +11,7 @@ from selenium.common.exceptions import NoSuchElementException
 browser = webdriver.Chrome()
 LOGIN = 'h.natenkoroman@gmail.com'
 PASSWORD = ',fh,fhjcf9'
-LINK_ON_TEST = 'https://stepik.org/lesson/236205/step/6?unit=208637'
+LINK_ON_TEST = 'https://stepik.org/lesson/236918/step/7?unit=209305'
 
 WRONG_WARIANTS = ()
 
@@ -90,7 +90,7 @@ if __name__ == "__main__":
                 print(combination)
                 create_answer(combination)
                 break
-            except Exception:
+            except Exception as e:
                 sleep(0.1)
                 try:
                     try_reset()
