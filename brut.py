@@ -8,7 +8,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 browser = webdriver.Chrome()
 
-LINK_ON_TEST = 'https://stepik.org/lesson/238819/step/12?unit=211271'
+LINK_ON_TEST = 'https://stepik.org/lesson/201964/step/9?unit=176022'
 LOGIN =  os.environ['LOGIN']
 PASSWORD = os.environ['PASSWORD']
 WRONG_WARIANTS = ()
